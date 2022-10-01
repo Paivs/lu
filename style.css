@@ -127,3 +127,62 @@
 .video{
     text-align: center;
 }
+
+.footer {
+    padding-bottom: 5%;
+    margin-top: 1%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(37, 37, 39);
+    color: white;
+}
+
+.footer img{
+    width: 100px;
+    height: 110px;
+    position: absolute;
+    margin-left: 40%;
+    padding-top: 1%;
+}
+
+.footer p{
+    position: relative;
+    padding-left: 48%;
+    padding-top: 3%;
+}
+
+.Produtos{
+    width: 90%;
+    margin: 20px 50px 0px;
+    text-align: center;
+    padding: 0px 0px 0px;
+}
+
+.Produtos li{
+    width: 250px;
+    height: 250px;
+    border: 10px solid; /* As 4 bordas sólidas com 25px de espessura */
+    border-radius: 20px 0px 20px 0px;
+    border-color:rgb(27, 27, 143); /* cores: topo, direita, inferior, esquerda */
+
+    margin-inline: 5%;
+
+    text-align: center;
+
+    display: inline-block;
+    transition: .4s;
+}
+
+.Produtos li img{
+    width: 100px;
+    height: 100px;
+
+    padding-top: 5%;
+
+    vertical-align: top;
+}
+
+.Produtos li:hover{
+    border-color: darkred;
+}
