@@ -169,8 +169,11 @@ body{
     border: 10px solid; /* As 4 bordas sólidas com 25px de espessura */
     border-radius: 20px 0px 20px 0px;
     border-color:rgb(27, 27, 143); /* cores: topo, direita, inferior, esquerda */
+    background-color:rgba(59, 14, 14, 0.5); /* cores: topo, direita, inferior, esquerda */
 
     margin-inline: 5%;
+
+    color: whitesmoke;
 
     text-align: center;
 
@@ -187,21 +190,28 @@ body{
     vertical-align: top;
 }
 
+.labels{
+    /*background-color: #FFF;*/
+}
+
 .Produtos li:hover{
     border-color: darkred;
 }
 
-fieldset{
+.meio-field{
     display:grid;
     margin-block-start: 2%;
     margin-block-end: 2%;
-    width: 40%;
+    width: 70%;
+
+    color: whitesmoke;
 }
 
 fieldset label{
     text-align: left;
     padding-top: 3%;
     padding-bottom: 1%;
+    color: whitesmoke;
 }
 
 .horario{
@@ -218,7 +228,7 @@ fieldset label{
 }
 
 .bt-send button{
-    width: 10%;
+    width: 100px;
     height: 25px;
 
     border-radius: 20px 20px 20px 20px;
@@ -239,4 +249,16 @@ fieldset label{
     transform: scale(1.5);
     background-color: darkred;
     border-color:darkred;
+}
+
+.fundo-field{
+    display:grid;
+    margin-block-start: 2%;
+    margin-block-end: 2%;
+    width: 80%;
+    height: 850px;
+
+    color: whitesmoke;
+
+    background-color: rgba(33, 6, 4, 0.5)
 }
